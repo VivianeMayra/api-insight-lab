@@ -1,8 +1,9 @@
-package br.com.insight.insight_lab.modules.supplier.repository;
+package br.com.insight.insight_lab.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import br.com.insight.insight_lab.modules.supplier.SupplierEntity;
-import br.com.insight.insight_lab.modules.supplier.SupplierStatus;
+
+import br.com.insight.insight_lab.entities.SupplierEntity;
+import br.com.insight.insight_lab.entities.enums.SupplierStatus;
 
 import java.util.List;
 
